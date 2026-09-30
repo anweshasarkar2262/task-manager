@@ -1,5 +1,6 @@
 import React from 'react';
-import { useParams, useNavigate } from 'react';
+import { useNavigate } from 'react';
+import { useParams } from 'react-router-dom';
 import { useTasks } from '../context/TaskContext';
 
 const TaskDetails = () => {
